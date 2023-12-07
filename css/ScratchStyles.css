@@ -1,0 +1,98 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/img/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+#container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border: 4px solid black;
+    min-height: 500px; /* Adjust this as needed */
+    
+}
+
+/* Navigation Menu Styling */
+nav {
+    color: Black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a:link, nav a:visited {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+nav a:active {
+    color: #add8e6; /* Light blue color when clicked */
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/* Centering Images */
+img {
+    display: block; /* Makes the image a block-level element */
+    margin: auto; /* Automatically adjusts the margin to center the image */
+    max-width: 100%; /* Ensures the image is responsive and fits the container */
+    height: auto;
+    border: 1px solid #ccc; /* Keeping the image border */
+}
+
+/* Embedded YouTube Video Styling */
+iframe {
+    max-width: 100%;
+    border: 1px solid #ccc; /* Keeping the video border */
+}
+
+/* Footer/Bottom Navigation Styling */
+.bottom-nav {
+    position: absolute;
+    bottom: 0; /* Adjust and test different values */
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 10; /* Ensures it's on top of other elements */
+}
+
+/* Book Links Styling */
+a.book-link:link, a.book-link:visited {
+    color: #fff; /* White text for book links */
+    text-decoration: none;
+}
+
+a.book-link:hover {
+    text-decoration: underline; /* Underline on hover for book links */
+}
+
+a.book-link:active {
+    color: #add8e6; /* Light blue color when clicked for book links */
+}
+
+h1,h2,h3 {
+    text-decoration: underline;
+    font-size: 24px;
+}
